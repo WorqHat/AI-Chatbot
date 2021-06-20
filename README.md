@@ -1,4 +1,4 @@
-# Demo: A Simple Voice AI Bot with Web Speech API and Node.js
+# A Simple Voice AI Bot with Web Speech API and Node.js
 
 This demo uses the experimental Web Speech API, which is currently only [supported](http://caniuse.com/#search=speech) by Blink-based browsers including Chrome 25+, Opera 27+, Samsung Internet, QQ Browser, and Baidu Browser.
 
@@ -27,10 +27,3 @@ APIAI_SESSION_ID=some_unique_session_id
 ```
 
 The first one is an API.ai API key (Please get one by sign up with [API.ai](https://api.ai)), and the second one is a session ID, which is an arbitrary string (we could make this unique within the app, but that's beyond the scope of this demo).
-
-Or use this Heroku button to deploy to Heroku server. You just need to fill out the env vars with the API key and a session ID. No need to create an `.env` file.
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/girliemac/web-speech-ai)
-
-
-
