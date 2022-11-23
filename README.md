@@ -5,7 +5,7 @@ This demo uses the experimental Web Speech API, which is currently only [support
 ![Demo Image](https://i.vimeocdn.com/video/633160262_480x297.jpg)
 
 
-This is how this web app works:
+This is how this web application works:
 
 1. Using the Web Speech API’s `SpeechRecognition` interface to listen your voice from a microphone
 2. Send your message to [API.ai](https://api.ai) (the natural language processing platform) as a text string
